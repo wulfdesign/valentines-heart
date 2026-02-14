@@ -34,3 +34,26 @@ To view the project, simply open valentines\_heart.html in any modern web browse
 * Go to Settings > Pages.
 * Under "Build and deployment", set the branch to main and the folder to / (root).
 * Click Save. Your site will be live at https://<your-username>.github.io/<repo-name>/.
+
+💻 Command Line Deployment
+If you are using the terminal to update your project, use the following commands:
+
+# Initialize the repository (if not already done)
+git init
+
+# Add your files
+git add .
+
+# Commit your changes
+git commit -m "Initial commit of Valentine heart surprise"
+
+# Link to your GitHub repo (replace with your actual URL)
+git remote add origin [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+
+# Push to the main branch
+git branch -M main
+git push -u origin main
+
+
+📄 License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
