@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For You ❤️</title>
+    <title>❤️ for You</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -59,7 +59,7 @@
 <body>
 
     <div id="header-text" class="overlay-text">
-        <div id="step-1" style="opacity: 0; transition: opacity 0.8s;">Happy</div>
+        <div id="step-1" class="font-bold" style="opacity: 0; transition: opacity 0.8s;">Happy</div>
         <div id="step-2" class="font-bold" style="opacity: 0; transition: opacity 0.8s;">Valentine's</div>
     </div>
 
@@ -73,7 +73,7 @@
         let scene, camera, renderer, heart, material;
         let isDragging = false;
         let previousMouseX = 0;
-        let rotationVelocity = 0.005; 
+        let rotationVelocity = 0.0025; 
         
         let interactionCount = 0;
 
@@ -212,10 +212,10 @@
 
             if (!isDragging) {
                 heart.rotation.y += rotationVelocity;
-                if (Math.abs(rotationVelocity) > 0.005) {
+                if (Math.abs(rotationVelocity) > 0.0025) {
                     rotationVelocity *= 0.95;
                 } else {
-                    rotationVelocity = 0.005;
+                    rotationVelocity = 0.0025;
                 }
             }
 
