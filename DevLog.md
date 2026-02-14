@@ -23,3 +23,21 @@ Technical Challenges
 
 * Momentum: Implementing a decay function so that when the user stops dragging, the heart settles back into a slow, romantic spin rather than stopping abruptly.
 * Orientation: Standard Three.js heart shapes are often defined upside down relative to screen coordinates; corrected this using heart.rotation.x = Math.PI.
+
+
+
+Updates
+
+* added MIT Licence
+* fixed Heart roatation
+
+
+
+Roadmap (future updates)
+
+* custom heart mesh
+* candy colored hearts
+* Valentine's Heart Game
+
+
+

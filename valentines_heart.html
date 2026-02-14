@@ -191,7 +191,7 @@
         function onMouseMove(event) {
             if (isDragging) {
                 const deltaX = event.clientX - previousMouseX;
-                heart.rotation.y += deltaX * 0.01;
+                heart.rotation.y -= deltaX * 0.01;
                 rotationVelocity = deltaX * 0.01;
                 previousMouseX = event.clientX;
             }
