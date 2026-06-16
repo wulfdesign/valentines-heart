@@ -4,7 +4,7 @@
 
 Project Context
 
-* Timeframe: Built in ~2 hours.
+* Timeframe: Built in \~2 hours.
 * Goal: Create a "lightly interactive" surprise for a partner with a shiny, plastic/chocolate-like aesthetic.
 
 
@@ -28,8 +28,8 @@ Technical Challenges
 
 Updates
 
-* added MIT Licence
-* fixed Heart roatation
+* added MIT License
+* fixed Heart rotation
 
 
 
@@ -38,6 +38,4 @@ Roadmap (future updates)
 * custom heart mesh
 * candy colored hearts
 * Valentine's Heart Game
-
-
 

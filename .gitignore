@@ -1,0 +1,6 @@
+# 🛡️ Valentines Heart - Minimal Protection
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.env
