@@ -1,6 +1,33 @@
-# 🛡️ Valentines Heart - Minimal Protection
+# 🛡️ Valentine's Heart - Extreme Protection
+
+# Private Sanctuary
+private/
+/private/
+
+# Dependencies
+node_modules/
+
+# OS/IDE files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Artifacts
+archive/
 *.log
-node_modules/
+*.tmp
+*.bak
+
+# Sensitive Files
+*.pdf
+*.docx
+*.doc
+*.secret.*
+*.key
+
+# Environment
 .env
+.env.*
